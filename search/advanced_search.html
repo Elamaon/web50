@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <div style="height:10vh; text-align: right">
+            <a href="index.html" style="margin:5px">Search</a>
+            <a href="image_search.html" style="margin:5px">Image Search</a>
+            <a href="advanced_search.html" style="margin:5px">Advanced Search</a>
+        </div>
+        <form action="https://www.google.com/search">
+            <div>
+                Find pages with...
+            </div>
+            <div style="margin-top:15px; margin-bottom:15px">
+                all these words:
+            <input type="text" name="as_q" style="position:fixed; left:250px; border-radius:5px">    
+            </div>
+            <div style="margin-top:15px; margin-bottom:15px">
+                this exact word or phrase:
+            <input type="text" name="as_epq" style="position:fixed; left:250px; border-radius:5px">    
+            </div>
+            <div style="margin-top:15px; margin-bottom:15px">
+                any of these words:
+            <input type="text" name="as_oq" style="position:fixed; left:250px; border-radius:5px">    
+            </div>
+            <div style="margin-top:15px; margin-bottom:15px">
+                none of these words:
+            <input type="text" name="as_eq" style="position:fixed; left:250px; border-radius:5px">    
+            </div>
+            <input type="submit" value="Advanced Search" style="position:fixed; left:250px; background-color: blue; color: white">
+        </form>
+    </body>
+</html>
